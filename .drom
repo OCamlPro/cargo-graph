@@ -1,0 +1,344 @@
+# Keep this file in your GIT repo to help drom track generated files
+# begin version
+version:0.6.1
+# end version
+
+# hash of toml configuration files
+# used for generation of all files
+e0e94d881a9cf5d14ac1577446982c76:.
+# end context for .
+
+# begin context for .github/workflows/workflow.yml
+# file .github/workflows/workflow.yml
+0ce4b03e84c1a8aca1d0608d0071701b:.github/workflows/workflow.yml
+# end context for .github/workflows/workflow.yml
+
+# begin context for .gitignore
+# file .gitignore
+e45bcd8688b3785836ed854abfb356d2:.gitignore
+# end context for .gitignore
+
+# begin context for .ocamlformat
+# file .ocamlformat
+51f788c6dcd47d33ffec6427b686ed4f:.ocamlformat
+# end context for .ocamlformat
+
+# begin context for .ocamlformat-ignore
+# file .ocamlformat-ignore
+a8d1bcd6f62c6b813b77d3ff8959d8d2:.ocamlformat-ignore
+# end context for .ocamlformat-ignore
+
+# begin context for .ocp-indent
+# file .ocp-indent
+6048407431b8d9baf725ae5365d4c2f2:.ocp-indent
+# end context for .ocp-indent
+
+# begin context for CHANGES.md
+# file CHANGES.md
+e6ca7f2a1aa228db5e0407961a76194f:CHANGES.md
+# end context for CHANGES.md
+
+# begin context for LICENSE.md
+# file LICENSE.md
+3e8c72433d2b8531f0e9716ab0e5fc8a:LICENSE.md
+# end context for LICENSE.md
+
+# begin context for Makefile
+# file Makefile
+c6c8ce5b2bd74dca5fdfec998901ec0a:Makefile
+# end context for Makefile
+
+# begin context for README.md
+# file README.md
+67aac54f20f08549675c8ebe5fde20d9:README.md
+# end context for README.md
+
+# begin context for docs/README.txt
+# file docs/README.txt
+bfbacf00053bb9ab2a6e2ce94ed4a642:docs/README.txt
+# end context for docs/README.txt
+
+# begin context for docs/doc/index.html
+# file docs/doc/index.html
+fa43ea1d1b6eee89e3197e91667805f6:docs/doc/index.html
+# end context for docs/doc/index.html
+
+# begin context for docs/favicon.png
+# file docs/favicon.png
+e739f3026aa997af4026bc428f4c9ef6:docs/favicon.png
+# end context for docs/favicon.png
+
+# begin context for docs/index.html
+# file docs/index.html
+4efed52bdb83ea5a05bc229b23c2b1d8:docs/index.html
+# end context for docs/index.html
+
+# begin context for docs/sphinx/index.html
+# file docs/sphinx/index.html
+f14d307b06b58b694fe43984ba2ff777:docs/sphinx/index.html
+# end context for docs/sphinx/index.html
+
+# begin context for docs/style.css
+# file docs/style.css
+c8281f46ba9a11d0b61bc8ef67eaa357:docs/style.css
+# end context for docs/style.css
+
+# begin context for drom.toml
+# file drom.toml
+fbbcfa2e08fa917cb429aea41db0cb22:drom.toml
+# end context for drom.toml
+
+# begin context for dune
+# file dune
+0d57afa9756f983af2551804954af609:dune
+# end context for dune
+
+# begin context for dune-project
+# file dune-project
+5ab87bff931f13c8e2cd4ea0f4fec16b:dune-project
+# end context for dune-project
+
+# begin context for opam/cargo-graph.opam
+# file opam/cargo-graph.opam
+fcb2754eeb2379bdaecf71548597b636:opam/cargo-graph.opam
+# end context for opam/cargo-graph.opam
+
+# begin context for opam/cargo_graph_lib.opam
+# file opam/cargo_graph_lib.opam
+aacf258ac9069cef5f253442193a4145:opam/cargo_graph_lib.opam
+# end context for opam/cargo_graph_lib.opam
+
+# begin context for opam/ez_debug.opam
+# file opam/ez_debug.opam
+d1265da5906c706d57e1f709fbc085e6:opam/ez_debug.opam
+# end context for opam/ez_debug.opam
+
+# begin context for opam/ez_dot.opam
+# file opam/ez_dot.opam
+07b1844f866886c47c9644b09fe22901:opam/ez_dot.opam
+# end context for opam/ez_dot.opam
+
+# begin context for opam/ez_toposort.opam
+# file opam/ez_toposort.opam
+b7b3ea7bf83033e15070234849da3163:opam/ez_toposort.opam
+# end context for opam/ez_toposort.opam
+
+# begin context for opam/toml.opam
+# file opam/toml.opam
+28feec270261fc563851a9215485dff6:opam/toml.opam
+# end context for opam/toml.opam
+
+# begin context for scripts/after.sh
+# file scripts/after.sh
+1112fbe7067fce342365a25613b5659d:scripts/after.sh
+# end context for scripts/after.sh
+
+# begin context for scripts/before.sh
+# file scripts/before.sh
+ae050b3099ac0b43d7c7f4295f6b2319:scripts/before.sh
+# end context for scripts/before.sh
+
+# begin context for scripts/copy-bin.sh
+# file scripts/copy-bin.sh
+bb3a9d286f0dc64021db4194427263ee:scripts/copy-bin.sh
+# end context for scripts/copy-bin.sh
+
+# begin context for sphinx/_static/css/fixes.css
+# file sphinx/_static/css/fixes.css
+20bbe7a5dbb3c3278a1511d960616fe5:sphinx/_static/css/fixes.css
+# end context for sphinx/_static/css/fixes.css
+
+# begin context for sphinx/about.rst
+# file sphinx/about.rst
+a9d1cd1f96aa556298274f28227a840a:sphinx/about.rst
+# end context for sphinx/about.rst
+
+# begin context for sphinx/conf.py
+# file sphinx/conf.py
+aecde25891ee261f77337359588763bb:sphinx/conf.py
+# end context for sphinx/conf.py
+
+# begin context for sphinx/index.rst
+# file sphinx/index.rst
+09569567e2193f9672bd2bce4f1e6954:sphinx/index.rst
+# end context for sphinx/index.rst
+
+# begin context for sphinx/install.rst
+# file sphinx/install.rst
+2126ffc4b8e714f269081c3fd44e149e:sphinx/install.rst
+# end context for sphinx/install.rst
+
+# begin context for sphinx/license.rst
+# file sphinx/license.rst
+abc6ae223dbcd2a710665e948f370518:sphinx/license.rst
+# end context for sphinx/license.rst
+
+# begin context for src/cargo-graph/dune
+# file src/cargo-graph/dune
+2c9b993df933dd3698f47c5e731a6708:src/cargo-graph/dune
+# end context for src/cargo-graph/dune
+
+# begin context for src/cargo-graph/index.mld
+# file src/cargo-graph/index.mld
+c8ed2387d8da3d42b5dc83b6563047f3:src/cargo-graph/index.mld
+# end context for src/cargo-graph/index.mld
+
+# begin context for src/cargo-graph/main.ml
+# file src/cargo-graph/main.ml
+72f0869954e3aaf567a31df6d4a91db0:src/cargo-graph/main.ml
+# end context for src/cargo-graph/main.ml
+
+# begin context for src/cargo-graph/package.toml
+# file src/cargo-graph/package.toml
+e7c001e597cfcf435af13ffed26e8ef8:src/cargo-graph/package.toml
+# end context for src/cargo-graph/package.toml
+
+# begin context for src/cargo_graph_lib/dune
+# file src/cargo_graph_lib/dune
+cd32baff283e99debdc6d2d470576807:src/cargo_graph_lib/dune
+# end context for src/cargo_graph_lib/dune
+
+# begin context for src/cargo_graph_lib/index.mld
+# file src/cargo_graph_lib/index.mld
+2e7d00b132c316d5929650541211ba46:src/cargo_graph_lib/index.mld
+# end context for src/cargo_graph_lib/index.mld
+
+# begin context for src/cargo_graph_lib/main.ml
+# file src/cargo_graph_lib/main.ml
+ff4299de9666d07f5abf0e1894f4b336:src/cargo_graph_lib/main.ml
+# end context for src/cargo_graph_lib/main.ml
+
+# begin context for src/cargo_graph_lib/package.toml
+# file src/cargo_graph_lib/package.toml
+008142ba9cc37a4e70dac0fcb0299531:src/cargo_graph_lib/package.toml
+# end context for src/cargo_graph_lib/package.toml
+
+# begin context for src/cargo_graph_lib/version.mlt
+# file src/cargo_graph_lib/version.mlt
+940d29cde7f16cd0916ed1d5f9c41154:src/cargo_graph_lib/version.mlt
+# end context for src/cargo_graph_lib/version.mlt
+
+# begin context for src/ez_debug/dune
+# file src/ez_debug/dune
+c212cb7437fa6e0f258e6030cde3c365:src/ez_debug/dune
+# end context for src/ez_debug/dune
+
+# begin context for src/ez_debug/index.mld
+# file src/ez_debug/index.mld
+beec144ad2e052c03f0ddac00a2a0a71:src/ez_debug/index.mld
+# end context for src/ez_debug/index.mld
+
+# begin context for src/ez_debug/package.toml
+# file src/ez_debug/package.toml
+a444ee1654c71b8d4302d59f62f377eb:src/ez_debug/package.toml
+# end context for src/ez_debug/package.toml
+
+# begin context for src/ez_debug/version.mlt
+# file src/ez_debug/version.mlt
+940d29cde7f16cd0916ed1d5f9c41154:src/ez_debug/version.mlt
+# end context for src/ez_debug/version.mlt
+
+# begin context for src/ez_dot/dune
+# file src/ez_dot/dune
+5a88c35dca738b59b60bcc22a1d2a21c:src/ez_dot/dune
+# end context for src/ez_dot/dune
+
+# begin context for src/ez_dot/index.mld
+# file src/ez_dot/index.mld
+8829811eae3a8a22c3afcbde8b53f4cf:src/ez_dot/index.mld
+# end context for src/ez_dot/index.mld
+
+# begin context for src/ez_dot/package.toml
+# file src/ez_dot/package.toml
+c3a13defb2b61f545e2332ee9f7710a4:src/ez_dot/package.toml
+# end context for src/ez_dot/package.toml
+
+# begin context for src/ez_dot/version.mlt
+# file src/ez_dot/version.mlt
+940d29cde7f16cd0916ed1d5f9c41154:src/ez_dot/version.mlt
+# end context for src/ez_dot/version.mlt
+
+# begin context for src/ez_toposort/dune
+# file src/ez_toposort/dune
+6606292a99269e0b56960ab0cd1a00a4:src/ez_toposort/dune
+# end context for src/ez_toposort/dune
+
+# begin context for src/ez_toposort/index.mld
+# file src/ez_toposort/index.mld
+6db3f922fa4a2358389c3ebda1e754b7:src/ez_toposort/index.mld
+# end context for src/ez_toposort/index.mld
+
+# begin context for src/ez_toposort/package.toml
+# file src/ez_toposort/package.toml
+474914db89536b2d14d5c3584c3727e3:src/ez_toposort/package.toml
+# end context for src/ez_toposort/package.toml
+
+# begin context for src/ez_toposort/version.mlt
+# file src/ez_toposort/version.mlt
+940d29cde7f16cd0916ed1d5f9c41154:src/ez_toposort/version.mlt
+# end context for src/ez_toposort/version.mlt
+
+# begin context for src/toml.7.0.0/dune
+# file src/toml.7.0.0/dune
+6b4ecf0eb546fdbd3d1329cc9d9d0aca:src/toml.7.0.0/dune
+# end context for src/toml.7.0.0/dune
+
+# begin context for src/toml.7.0.0/index.mld
+# file src/toml.7.0.0/index.mld
+0ea1296125f7d6cb4306772c02e44f38:src/toml.7.0.0/index.mld
+# end context for src/toml.7.0.0/index.mld
+
+# begin context for src/toml.7.0.0/main.ml
+# file src/toml.7.0.0/main.ml
+4de90c9682ab0cfec25130af7d77b013:src/toml.7.0.0/main.ml
+# end context for src/toml.7.0.0/main.ml
+
+# begin context for src/toml.7.0.0/package.toml
+# file src/toml.7.0.0/package.toml
+71de482fa461e452e03da5ab63befd07:src/toml.7.0.0/package.toml
+# end context for src/toml.7.0.0/package.toml
+
+# begin context for src/toml.7.0.0/version.mlt
+# file src/toml.7.0.0/version.mlt
+541de2f5882d6c1dad57021543fb634c:src/toml.7.0.0/version.mlt
+# end context for src/toml.7.0.0/version.mlt
+
+# begin context for test/expect-tests/dune
+# file test/expect-tests/dune
+e90dbc59360870a194b4c49957d8b918:test/expect-tests/dune
+# end context for test/expect-tests/dune
+
+# begin context for test/expect-tests/test.ml
+# file test/expect-tests/test.ml
+24150bafd4bec9b34e6c2987843f0d50:test/expect-tests/test.ml
+# end context for test/expect-tests/test.ml
+
+# begin context for test/inline-tests/dune
+# file test/inline-tests/dune
+40d46dc0f09118f9e5ad1298e63d10c0:test/inline-tests/dune
+# end context for test/inline-tests/dune
+
+# begin context for test/inline-tests/test.ml
+# file test/inline-tests/test.ml
+37b8bc6035cda6302a80178c61f9626e:test/inline-tests/test.ml
+# end context for test/inline-tests/test.ml
+
+# begin context for test/output-tests/dune
+# file test/output-tests/dune
+5b27cb27e3e1d780eb34bd8120a63094:test/output-tests/dune
+# end context for test/output-tests/dune
+
+# begin context for test/output-tests/test1.expected
+# file test/output-tests/test1.expected
+dc8d6157230e9ef8e965865f990fbc49:test/output-tests/test1.expected
+# end context for test/output-tests/test1.expected
+
+# begin context for test/output-tests/test2.expected
+# file test/output-tests/test2.expected
+ee63957b3b77455a12e6c269a5032c3f:test/output-tests/test2.expected
+# end context for test/output-tests/test2.expected
+
+# begin context for test/output-tests/test2.ml
+# file test/output-tests/test2.ml
+e8eaab7626ef0aace5e570fffe81f869:test/output-tests/test2.ml
+# end context for test/output-tests/test2.ml
