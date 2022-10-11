@@ -128,8 +128,8 @@ let to_table2 key_values key_value_groups =
 
 (* OcamlYacc definitions *)
 %token <bool> BOOL
-%token <int> INTEGER
-%token <float> FLOAT
+%token <string> INTEGER
+%token <string> FLOAT
 %token <string> STRING
 %token <float> DATE
 %token <string> KEY
@@ -154,6 +154,7 @@ group_header:
 key:
  | STRING { Table.Key.of_string $1 }
  | KEY    { Table.Key.of_string $1 }
+ | INTEGER    { Table.Key.of_string $1 }
 
 key_path: k = separated_nonempty_list (DOT, key) { k }
 
@@ -165,8 +166,8 @@ keyValue:
 
 value:
     BOOL { TBool($1) }
-  | INTEGER { TInt($1) }
-  | FLOAT { TFloat($1) }
+  | INTEGER { TInt(int_of_string $1) }
+  | FLOAT { TFloat(float_of_string $1) }
   | STRING { TString($1) }
   | DATE { TDate $1 }
   | LBRACK array_start { TArray($2) }
@@ -182,8 +183,8 @@ inline_table_key_values:
 array_start:
     RBRACK { NodeEmpty }
   | BOOL array_end(BOOL) { NodeBool($1 :: $2) }
-  | INTEGER array_end(INTEGER) { NodeInt($1 :: $2) }
-  | FLOAT array_end(FLOAT) { NodeFloat($1 :: $2) }
+  | INTEGER array_end(INTEGER) { NodeInt(List.map int_of_string ($1 :: $2)) }
+  | FLOAT array_end(FLOAT) { NodeFloat(List.map float_of_string ( $1 :: $2)) }
   | STRING array_end(STRING) { NodeString($1 :: $2) }
   | DATE array_end(DATE) { NodeDate($1 :: $2) }
   | LBRACK array_start nested_array_end { NodeArray($2 :: $3) }

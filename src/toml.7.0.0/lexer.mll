@@ -49,10 +49,10 @@ rule tomlex = parse
     | Some '+'  -> int_part
     | _         -> value
   in
-  INTEGER (int_of_string int_string)}
+  INTEGER (int_string)}
 |  ( '0' 'x' [ '0'-'9' 'A'-'F' 'a'-'f']+ ) as int_string   {
-  INTEGER (int_of_string int_string)}
-| t_float as value   { FLOAT (float_of_string value) }
+  INTEGER (int_string)}
+| t_float as value   { FLOAT (value) }
 | t_bool as value  { BOOL (bool_of_string value) }
 | t_date as date { DATE (fst (ISO8601.Permissive.datetime_tz ~reqtime:false date)) }
 | t_white+ { tomlex lexbuf }
