@@ -80,19 +80,33 @@ let main () =
                 let add_dep k =
                   if k <> package_name then
                     deps := k :: !deps
+                  else
+                    Printf.eprintf "WARNING: skipping self-dep %S in %s\n%!"
+                      package_name filename
                 in
                 EzToml.iter (fun k v ->
                     match v with
                     | EzToml.TYPES.TTable table ->
-                        begin
-                          match EzToml.EZ.find (EzToml.TYPES.Table.Key.of_string "package") table with
-                          | exception _ -> add_dep k
-                          | TString k -> add_dep k
-                          | _ -> add_dep k
-                        end
+                        let p_name =
+                          match EzToml.get table ["package"] with
+                          | exception _ -> k
+                          | TString k -> k
+                          | _ -> k
+                        in
+                        let optional =
+                          match EzToml.get table ["optional"] with
+                          | TBool true -> true
+                          | _ -> false
+                          | exception _ -> false
+                        in
+                        if not optional then
+                          add_dep p_name
                     | _ -> add_dep k
                   ) t;
-                Printf.eprintf "     %d dependencies\n%!" ( List.length !deps);
+                (*
+                Printf.eprintf
+ "     %d dependencies\n%!" ( List.length !deps);
+*)
                 add_package {
                   p_name = package_name;
                   p_deps = !deps;
@@ -129,14 +143,17 @@ let main () =
     | [] ->
 
         let rec iter p =
-          Printf.eprintf "compute height %s (%s)\n%!" p.p_name p.p_file;
+          (*
+Printf.eprintf "compute height %s (%s)\n%!" p.p_name p.p_file; *)
           let max_height = ref 0 in
           List.iter (fun dep ->
               if dep <> p.p_name then
                 let h =
                   match StringMap.find dep !packages with
                   | exception _ -> 0
-                  | p -> iter p
+                  | pp ->
+                      (* Printf.eprintf "  %s -> %s\n%!" p.p_name pp.p_name;*)
+                      iter pp
                 in
                 max_height := max !max_height (h+1)
             ) p.p_deps ;
